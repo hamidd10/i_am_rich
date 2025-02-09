@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blueGrey[900],
           centerTitle: true,
         ),
-        body: Center(
-          child: Image(image: NetworkImage("https://www.w3schools.com/w3css/img_lights.jpg")),
+        body: const Center(
+          child: Image(image: AssetImage('images/dimaond.jpg')),
         ),
       ),
     );
